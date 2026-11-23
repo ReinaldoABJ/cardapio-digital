@@ -176,19 +176,3 @@ A planilha é composta por **6 abas** que separam a rotina da equipe, o registro
 - [ ] **Fase 4 — Evolução (Médio/Longo Prazo):** Integração operacional com plataformas de delivery (usando os SKUs) e futura migração para banco de dados + gateway de pagamento.
 
 ---
-
-## 📦 7. Passagem de Bastão (Handoff)
-
-> **CONTEXTO PARA O PRÓXIMO GEM (Especialista em UI/UX & Produto)**
->
-> * **Projeto:** Cardápio Digital com Carrinho de Compras para Confeitaria (Pronta Entrega e Sob Demanda).
-> * **Público:** Clientes finais (*mobile-first*, compra rápida sem cadastro/login). A equipe gerencia tudo no Google Sheets.
-> * **Restrições:** Custo zero, sem login/cadastro (fora do escopo LGPD no MVP), envio de pedidos via WhatsApp.
-> * **Stack definida:** React + Vite + Tailwind CSS, hospedado no GitHub Pages, lendo Google Sheets e imagens do GitHub.
-> * **Requisitos-chave de UX:**
->   1. Banner/Indicador de Status da Loja (Aberta / Fechada) no topo, lido da aba `Configuracoes`, sem bloquear o cliente.
->   2. Navegação clara entre *Pronta Entrega* e *Sob Demanda*, com filtros por categoria e selos de *Mais Pedido* / *Lançamento*.
->   3. Modal/tela de personalização (massa, recheio, peso, adicionais) para pronta entrega e sob demanda.
->   4. Carrinho único para ambos os tipos (separação visual ocorre na mensagem do WhatsApp).
->   5. Fluxo livre (sem barreiras): preenchimento total, parcial ou atalho direto para o WhatsApp sem montar carrinho.
-> * **Próximo passo esperado:** Definir a jornada do usuário, arquitetura de informação, fluxo de telas (wireframes descritivos) e diretrizes visuais para o Engenheiro de Software.
